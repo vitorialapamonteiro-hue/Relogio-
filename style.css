@@ -127,3 +127,14 @@ body {
   color: #f8d88e;
   font-size: clamp(13px, 4vw, 23px);
 }
+linha-tempo div {
+  flex: 1;
+  min-width: 0;
+  aspect-ratio: 1.1;
+  background: #101b43;
+  border: 2px solid #c99b48;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
